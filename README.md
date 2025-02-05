@@ -32,13 +32,64 @@ The goal of Lingo Bingo is to simplify the vocabulary learning process for a spe
 10. **Secure Firebase Configuration**: Environment variables for Firebase API keys.
 11. **Deployment**: Hosted on Netlify/Surge/Firebase with domain authorization.
 
----
 
-## NPM Packages Used
+### 3. Technologies Used
+- React.js
+- Firebase for authentication and backend
+- MongoDB for storing user and lesson data
+- Tailwind CSS for styling
+- React Router DOM for page routing
+- DaisyUI for UI components
+- React Icons for icons
+- Firebase Hosting (for deployment)
 
-The following NPM packages are used in the project:
 
-1. **React Router DOM**: For routing and private route functionality.
+### 5. Dependencies Used
+- react
+- react-router-dom
+- tailwindcss
+- firebase
+- react-icons
+- react-countup
+- aos
+- daisyui
+- react-slick (for carousels)
+- react-speech-recognition (for pronunciation)
+  
+### 6. How to Run the Project Locally
+
+#### Prerequisites:
+- Node.js
+- Firebase account
+- MongoDB (optional for some features)
+
+#### Steps:
+1. Clone the repository:
    ```bash
-   npm install react-router-dom
-   ```
+   git clone https://github.com/your-username/lingo-bingo.git
+   cd lingo-bingo
+   Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Create a .env file in the root of the project and add your Firebase credentials:
+
+plaintext
+Copy
+Edit
+REACT_APP_FIREBASE_API_KEY=your-firebase-api-key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your-firebase-auth-domain
+REACT_APP_FIREBASE_PROJECT_ID=your-firebase-project-id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your-firebase-storage-bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-firebase-sender-id
+REACT_APP_FIREBASE_APP_ID=your-firebase-app-id
+Start the application:
+
+bash
+Copy
+Edit
+npm start
+Open the app in your browser
+
