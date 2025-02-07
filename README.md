@@ -4,6 +4,9 @@
 
 Lingo Bingo is a fun and interactive language learning application designed to help users expand their vocabulary and improve communication skills in a specific language. With a unique focus on vocabulary, this application makes the learning process easier, engaging, and accessible for users of all skill levels.
 
+![Project Screenshot](./src/assets/lingobingo.jpg)
+
+
 ## Live URL : https://lingo-bingo-499c0.web.app/
 
 ## Purpose
